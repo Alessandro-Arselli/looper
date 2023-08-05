@@ -7,7 +7,7 @@ body
 h1{
     text-align: center;
     font-family: 'Bungee', cursive;
-   
+  
     color: #ECB365;
     font-size: 3rem;
 }
@@ -38,13 +38,11 @@ button:active{
 }
 
 .beat{
-    min-width: 11vh;
+    min-width: 8vh;
     padding: 3vh 2vh;
     margin: 0.5rem;
 }
-.rows{
-    
-}
+
 .selection{
     margin-right: 0.5rem;
 }
@@ -52,4 +50,10 @@ button:active{
 .play{
     margin-top: 5rem;
     margin-right: 2rem;
+}
+
+.selectedBeat{
+    
+    background-color: #e7511f;
+    border-width: 0.6rem;
 }
