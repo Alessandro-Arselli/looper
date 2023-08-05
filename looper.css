@@ -1,0 +1,55 @@
+body
+{   font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: #041C32;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bungee', cursive;
+   
+    color: #ECB365;
+    font-size: 3rem;
+}
+section{
+    text-align: center;
+}
+button{
+    margin: 0.2rem;
+    
+    padding: 1.8rem 3rem;
+    min-width: 14.4rem;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 1.1rem;
+    color: #04293A;
+    background-color: #ECB365 ;
+    border:none;
+    border-radius:0.3rem ;
+    transition: 50ms;
+    
+    
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.8;
+}
+
+.beat{
+    min-width: 11vh;
+    padding: 3vh 2vh;
+    margin: 0.5rem;
+}
+.rows{
+    
+}
+.selection{
+    margin-right: 0.5rem;
+}
+
+.play{
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
